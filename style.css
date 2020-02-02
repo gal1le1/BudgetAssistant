@@ -1,0 +1,176 @@
+html,
+body{
+	min-height: 100%;
+}
+
+body{
+  background-image: url("FrontElemen/header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.loginbox{
+	width: 720px;
+	height: 420px;
+	background: rgba(0, 0, 0, 0.19);
+	top: 50%;
+	left: 50%;
+	position: absolute;	
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	border-radius: 20px;
+	padding: 155px 30px;
+}
+
+.logo{
+	width: 277px;
+	height: 154px;
+	top: 0px;
+	left: calc(50% - 130px);
+	position: absolute;
+}
+
+h2{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+	font-family: 'ABeeZee', sans-serif;
+	letter-spacing: 2px;
+	color: #f9f9f9;
+}
+
+.loginbox input, .options{
+	width: 38%;
+	margin-left: calc(50% - 130px);
+	margin-bottom: 30px;
+	letter-spacing: 2px;
+	font-size: 18px;
+	border-radius: 4px;
+	font-family: 'ABeeZee', sans-serif;
+}
+
+
+.loginbox input[type="text"], input[type="password"], input[type="date"], input[type="number"], .options{
+	margin-left: calc(29.5% - 150px);
+	border: none;
+	background-color: rgba(255,255,255,0.94);
+	height: 35px;
+	width: 300px;
+	text-indent: 10px;
+}
+
+.loginbox input[type="submit"]{
+	border: none;
+	border-radius: 100px;
+	outline: none;
+	height: 40px;
+	width: 110px;
+	color: #ffffff;
+	background-color: yellowgreen;
+	margin-left: calc(50% - 55px);
+	font-size: 19px;
+	font-weight: bold;
+
+}
+
+.loginbox input[type="submit"]:hover{
+	cursor: pointer;
+	background-color: limegreen;
+	color: #ffffff;
+}
+
+.icon{
+	float: left;
+	width: 37px;
+	height: 37px;
+	margin-left:100px;
+}
+
+.error{
+	background-color: rgba(255, 42, 42, 0.7);
+	box-sizing: border-box;
+	border-radius: 4px;
+	height: 35px;
+	text-align: center;
+	padding-top: 6px;
+	font-size: 17px;
+	width: 50%;
+	margin-top: calc(-4%);
+	margin-left: calc(25%);
+	color: #000;
+	border-style: solid;
+  	border-width: 1px;
+	border-color: #ff3300;
+}
+
+/*--------------------------------------------------------------*/
+/*-----------------------Transactions---------------------------*/
+/*--------------------------------------------------------------*/
+
+.container2{
+	background-color: #ffffff;
+	height: 100%;
+	width: 90%;
+	top: calc(50% + 50px);
+	left: 50%;
+	position: fixed;
+	transform: translate(-50%, -50%);
+}
+
+#transact.loginbox{
+	width: 720px;
+	height: 420px;
+	background: rgba(0, 0, 0, 0.19);
+	top: 50%;
+	left: 50%;
+	position: absolute;	
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	border-radius: 20px;
+	padding: 30px 30px;
+}
+
+#tran-h2{
+	margin: 0;
+	padding: 0 0 25px;
+	text-align: center;
+	font-size: 25px;
+	font-family: 'ABeeZee', sans-serif;
+	letter-spacing: 2px;
+	color: #f9f9f9;
+}
+
+.success{
+	background-color: rgba(19, 249, 0, 0.7);
+	box-sizing: border-box;
+	border-radius: 4px;
+	height: 32px;
+	text-align: center;
+	padding-top: 2px;
+	font-size: 17px;
+	width: 50%;
+	margin-top: calc(-4%);
+	margin-left: calc(25%);
+	color: #000;
+	border-style: solid;
+  	border-width: 1px;
+	border-color: #51ff01;
+}
+.fail{
+	background-color: rgba(255, 42, 42, 0.7);
+	box-sizing: border-box;
+	border-radius: 4px;
+	height: 32px;
+	text-align: center;
+	padding-top: 2px;
+	font-size: 17px;
+	width: 50%;
+	margin-top: calc(-4%);
+	margin-left: calc(25%);
+	color: #000;
+	border-style: solid;
+  	border-width: 1px;
+	border-color: #ff3300;
+}
